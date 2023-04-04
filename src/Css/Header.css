@@ -1,0 +1,19 @@
+.Header{
+    display: flex;
+    position:sticky;
+    background: #0C2B4B;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2rem;
+    margin: 0;
+    overflow: hidden;
+}
+a{
+    color: white;
+
+}
+
+a:visited{
+    color:#F3BD00;
+}
