@@ -1,0 +1,10 @@
+.nav-links li a{
+ color:rgb(26, 114, 114);
+ font-weight: 600;
+ font-size: 25px;
+}
+
+#logo{
+    height: 150px;
+    margin-top: -17px;
+  }
