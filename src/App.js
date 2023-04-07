@@ -19,6 +19,9 @@ import OurPride from './components/OurPride';
 import Unique from './components/Unique';
 import { BrowserRouter } from 'react-router-dom';
 import StudentThought from './components/StudentThought';
+import FaqArea from './components/FaqArea';
+import AboutNeet from './components/AboutNeet';
+import Registration from './components/Registration';
 
 function App() {
   return (
@@ -28,7 +31,7 @@ function App() {
       </div>
       <Navbar />
       <MainPage content="" />
-  
+
       <Heading primary="Meet Our Faculties" secondary="Learn From The Best" />
       <div className="teachers" id="teachers">
         <Card
@@ -59,21 +62,28 @@ function App() {
         />
       </div>
       <AboutUs />
-      <Unique/>
 
-<Different />
+      <div style={{ marginTop: '100px' }}>
+        <AboutNeet />
+      </div>
 
-      <div id="testimonials" style={{marginTop: '-40px'}}>
+      <Registration />
+      <Unique />
+
+      <Different />
+
+      <div id="testimonials" style={{ marginTop: '-40px' }}>
         <Heading primary="Testimonials" secondary="What Our Students Say" />
         <Slider />
       </div>
       <div>
-        <OurPride/>
-        <StudentThought/>
+        <OurPride />
+        <StudentThought />
       </div>
       {/* <MainPage content="Book Now First 5 Classes Free" /> */}
-      <Footer />
 
+      <FaqArea />
+      <Footer />
     </div>
   );
 }
