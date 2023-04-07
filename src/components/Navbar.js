@@ -22,7 +22,7 @@ import logo from "../images/Dr. Khan LOGO.svg";
 import burger from "../images/menu.png"
 import "../Css/Navbar.css";
 import { BrowserRouter as Router } from 'react-router-dom';
-// import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const Navbar = () => {
