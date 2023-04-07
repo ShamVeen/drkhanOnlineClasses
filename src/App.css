@@ -1,44 +1,42 @@
-.App{
+.App {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.button-static{
-  background: #F3BD00;
+.button-static {
+  background: #f3bd00;
   color: white;
   font-size: 2rem;
-  
+
   width: auto;
   height: 3rem;
   border: none;
-  font-family: "poppins",sans-serif;
+  font-family: 'poppins', sans-serif;
   padding: 0px 10px;
   border-radius: 1rem;
   font-size: 1.2rem;
   cursor: pointer;
   transition: 0.3s;
 }
-.button-static:hover{
-
+.button-static:hover {
   background: white;
-  border: 1px solid #F3BD00;
+  border: 1px solid #f3bd00;
   color: #2f2d2e;
 }
-.button{
+.button {
   background: white;
-  border: 1px solid #F3BD00;
-  font-family: "poppins",sans-serif;
+  border: 1px solid #f3bd00;
+  font-family: 'poppins', sans-serif;
   padding: 0px 10px;
-  margin :0.8rem;
+  margin: 0.8rem;
   border-radius: 1rem;
   cursor: pointer;
   transition: 0.3s;
-
 }
 
-.button:hover{
-  background: #F3BD00;
+.button:hover {
+  background: #f3bd00;
   color: white;
 }
 /* Navbar */
@@ -79,7 +77,6 @@
   top: 0;
   z-index: 999;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-  
 }
 
 .nav-center {
@@ -97,7 +94,6 @@
 }
 
 .nav-header img {
-  
   margin-right: 10px;
 }
 
@@ -136,7 +132,7 @@
   color: black;
 }
 
-.nav-links a:visited{
+.nav-links a:visited {
   text-decoration: none;
   list-style: none;
 }
@@ -167,7 +163,7 @@
   .nav-toggle {
     display: block;
   }
-  .nav-header{
+  .nav-header {
     width: 100%;
   }
   .show-nav {
@@ -184,16 +180,14 @@
   .show-nav li {
     margin: 0.5rem 0;
   }
-
- 
 }
 /* Our Pride */
-.pride{
+.pride {
   text-align: center;
 }
 /* Main Contaier code */
 
-.main-page{
+.main-page {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -202,7 +196,7 @@
   margin-top: -20px;
 }
 
-.main-page .free-class img{
+.main-page .free-class img {
   width: 60%;
   height: 300px;
 }
@@ -211,156 +205,153 @@
   flex-direction: column;
 } */
 
-.left-container{
+.left-container {
   margin-top: 3rem;
 }
-.left-container h1{
+.left-container h1 {
   font-size: 2.5rem;
 }
-.left-container h2{
+.left-container h2 {
   font-size: 1.5rem;
 }
-.right-container img{
-  width:500px;
-  height:auto;
+.left-container h3 {
+  font-size: 1.5rem;
+}
+.right-container img {
+  width: 500px;
+  height: auto;
 }
 .right-container span {
   display: flex;
   flex-direction: column;
 }
-#name{
-  color: #F3BD00;
+#name {
+  color: #f3bd00;
 }
-.bg-light{
-  color: #F3BD00;
+.bg-light {
+  color: #f3bd00;
   font-size: 1.6rem;
   padding: 5px;
 }
 
-
-
 /* How are we different*/
-.different{
+.different {
   margin-top: 5rem;
 }
-.Different{
-  display:  flex;
+.Different {
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
   /* margin-bottom: 2rem; */
 }
-.Different img{
+.Different img {
   width: 500px;
   object-fit: cover;
-
 }
 
-.Different .Content p{
+.Different .Content p {
   font-family: cursive;
   font-size: 1.3rem;
   font-weight: 600;
 }
-.Content{
+.Content {
   width: 500px;
-
 }
-.Content h1{
+.Content h1 {
   margin: 0;
   font-size: 2.5rem;
 }
-.Content p{
+.Content p {
   padding: 10px;
   font-size: 1.2rem;
 }
-#unique-id{
-  color: #F3BD00;
+#unique-id {
+  color: #f3bd00;
   padding: 0;
   margin: 0;
 }
 /* Card */
 
-.teachers{
+.teachers {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.card{
-
+.card {
   width: 450px;
   height: 550px;
-  background:rgb(255, 255, 252);
+  background: rgb(255, 255, 252);
   border-radius: 5%;
-  margin-bottom: 7rem ;
+  margin-bottom: 7rem;
   text-align: center;
   padding: 5px;
   text-transform: capitalize;
-
 }
-.upper-container{
+.upper-container {
   width: inherit;
-  height:350px;
+  height: 350px;
   object-fit: cover;
   overflow: hidden;
 }
 
-.img-container{
- width: inherit;
- height: inherit;
+.img-container {
+  width: inherit;
+  height: inherit;
 }
-.img-container img{
+.img-container img {
   width: inherit;
   height: inherit;
   object-fit: cover;
   border-radius: 10px;
-
 }
 
-.lower-container{
+.lower-container {
   text-align: center;
   margin-top: 15px;
-  
 }
 
-.lower-container h3,h4,p{
+.lower-container h3,
+h4,
+p {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-.lower-container h3{
-  color:#0C2B4B;
+.lower-container h3 {
+  color: #0c2b4b;
   font-weight: 600;
   font-size: 1.5rem;
-  
 }
 
-.lower-container h4{
+.lower-container h4 {
   color: #1c1919;
   font-weight: 700;
   font-size: 1rem;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
-.lower-container p{
+.lower-container p {
   margin: 1rem;
-  color:black;
+  color: black;
   font-weight: auto;
   font-size: 1rem;
   text-align: center;
 }
 
-.Card .experience{
-color:  black;
-text-transform: capitalize;
+.Card .experience {
+  color: black;
+  text-transform: capitalize;
 }
 
 /* Footer */
 
-footer{
+footer {
   background: #65ad44;
   color: azure;
   font-size: 0.8rem;
   padding: 3rem;
-
 }
+
+/* FAQ AREA */
