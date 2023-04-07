@@ -4,8 +4,8 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const FaqArea = () => {
   return (
-    <div className='faq-area'>
-      <div className='faq-title'>
+    <div className="faq-area">
+      <div className="faq-title">
         <h2>FAQs</h2>
       </div>
       <div>
@@ -16,10 +16,14 @@ const FaqArea = () => {
               preparing students?
             </Accordion.Header>
             <Accordion.Body>
-              Dr. KHAN Online Classes prepares students for any medical entrance
-              exam across globe like NEET along with 11th and 12th. Further Dr.
-              KHAN Online Classes teaches for CUET (for entrance in top Indian
-              Universities for other Graduation courses of science).
+              <span>Dr. KHAN</span> Online Classes prepares students for any
+              medical entrance exam across globe like{' '}
+              <span style={{ color: 'orange' }}>
+                NEET along with 11th and 12th.
+              </span>{' '}
+              Further Dr. KHAN Online Classes teaches for{' '}
+              <span style={{ color: 'orange' }}>CUET</span> (for entrance in top
+              Indian Universities for other Graduation courses of science).
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
@@ -32,8 +36,13 @@ const FaqArea = () => {
               ensures that teacher and students are on the same level of
               teaching and understanding. Student can interact with teacher via
               headphone/earphone or chat on the online classroom platform. This
-              is possible Due to very small batch size of NOT MORE THAN 10
-              STUDENT in a class.
+              is possible Due to very small batch size of{' '}
+              <span style={{ color: 'red' }}>NOT MORE THAN 10 STUDENT</span> in
+              a class. Dr. Khan classes brings the learning at the students
+              desktop at the{' '}
+              <span style={{ color: 'red' }}>CONVENIENCE AND SECURITY</span> of
+              your house. Dr. KHAN Online Classes ensures the student can get
+              the unmatched guidance from IITians/Doctors/Ph.Ds to each student
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
@@ -76,14 +85,15 @@ const FaqArea = () => {
             </Accordion.Header>
             <Accordion.Body>
               The free class is just one step farther to the student .The
-              student has to register on Dr.KhanOnline Classes by filling the
-              Form above or just talking to us on given number above. We will
-              talk to the parents or students for their customized requirement.
-              On the basis of the requirement given, our team arranges the free
-              class with Dr, Khan or his team. The student can interact on chat
-              on WhatsApp or just Call with the IITian/Doctor and can ask any
-              doubt. The IITian/Doctors will serve as a mentor and counselor
-              along with being a teacher.
+              student has to register on{' '}
+              <span style={{ color: 'orange' }}>Dr.KhanOnline Classes</span> by
+              filling the Form above or just talking to us on given number
+              above. We will talk to the parents or students for their
+              customized requirement. On the basis of the requirement given, our
+              team arranges the free class with Dr, Khan or his team. The
+              student can interact on chat on WhatsApp or just Call with the
+              IITian/Doctor and can ask any doubt. The IITian/Doctors will serve
+              as a mentor and counselor along with being a teacher.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="6">
@@ -92,19 +102,23 @@ const FaqArea = () => {
             </Accordion.Header>
             <Accordion.Body>
               The Live lectures get recorded simultaneously and the link gets
-              available only on request to teacher. This is to ensure student’s
-              consistency in class and take class seriously. Kids should not
-              make a habit of watching recorded session. <br />
+              <span style={{ color: 'orange' }}>
+                available only on request to teacher
+              </span>
+              . This is to ensure students consistency in class and take class
+              seriously. Kids should not make a habit of watching recorded
+              session. <br />
               What are the benefits of Dr.KhanOnline Classes? <br />•
               Dr.KhanOnline Classes brings the learning at the students'
               desktop, so the student can get the unmatched guidance from
               IITians and Doctors in secure and comfortable environment of his
-              home. It increases his confidence level and concentration. Mental
-              Peace to parents.
+              home. It increases his confidence level and concentration.
+              <span style={{ color: 'orange' }}> Mental Peace to parents.</span>
               <br /> • Through One to one coaching the students get proper
               attention from the faculty. The easy interaction with the mentor
               helps student to get an overall development.
-              <br /> • The batch sizes are very small small (not exceeding 10),
+              <br /> • The batch sizes are very small small{' '}
+              <span style={{ color: 'orange' }}>(not exceeding 10),</span>
               which allows the teacher to now each student personally. This
               helps the student to open up with the teacher and discuss his
               doubts more clearly. The friendly environment created in this way
@@ -125,13 +139,18 @@ const FaqArea = () => {
               <br /> • Dr. Khan firmly believes that parental control and
               monitoring helps in the growth of the student. With the various
               features offered, the parents get an upper hand here <br />o In
-              the complete course, Dr.KhanOnline Classes call for monthly parent
-              teacher meeting where parents directly interact with the teacher
-              and discuss any doubts / changes to improve the performance of
-              student.
+              the complete course, Dr.KhanOnline Classes call for{' '}
+              <span style={{ color: 'orange' }}>
+                monthly parent teacher meeting
+              </span>{' '}
+              where parents directly interact with the teacher and discuss any
+              doubts / changes to improve the performance of student.
               <br /> o Unlike the conventional coaching classes, Dr.KhanOnline
-              Classes allows parents to participate in class and check the
-              quality of teaching.
+              Classes allows parents to participate in class and{' '}
+              <span style={{ color: 'red' }}>
+                check the quality of teaching
+              </span>
+              .
               <br /> o Dr.KhanOnline Classes informs parents about 3 consecutive
               class bunks and any single test bunk. The parents are contacted
               and asked for explanation.
@@ -142,9 +161,11 @@ const FaqArea = () => {
               What will be the mode of payment for FEE?
             </Accordion.Header>
             <Accordion.Body>
-              Fees will be on Monthly basis. So YOU have full Power. No traps.
-              No Strings Attached. Fees can be sent via UPI or directly to
-              account of Dr. Khan.
+              <span style={{ color: 'orange' }}>
+                Fees will be on Monthly basis. So YOU have full Power. No traps.
+                No Strings Attached
+              </span>
+              .<br/> Fees can be sent via UPI or directly to account of Dr. Khan.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
